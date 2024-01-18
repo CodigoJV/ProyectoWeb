@@ -1,0 +1,244 @@
+*{
+    margin:0em;
+}
+
+body{
+    background-color: white;
+    margin-left: 0;
+}
+
+
+.encabezado{
+    text-align: left;
+	height: 5em;
+	margin-left: 2em;
+	display: grid;
+	margin-top: 1em;
+		
+}
+
+#header-logo {
+    width: 150px;
+    height: 100px;
+    float: left;
+	filter: brightness(1.1);mix-blend-mode: multiply;
+}
+
+.lista-nav{
+    display: inline-block;
+    float: center;
+
+}
+li{
+    display: inline-block;
+    color:black;
+	padding: 3em .5em 3em 1em;
+}
+
+.registro{
+	border-color: white;
+	padding-right: 2.5em;
+}
+.nav-buttons-registro{
+	background-color: black ;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-buttons-registro:hover{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}  
+
+.nav-buttons-inicio{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+.nav-buttons-inicio:hover{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}  
+
+.inicio-registro{
+    float: right;
+}
+
+.nav-buttons{
+    list-style: none;
+    text-decoration: none;
+	text-transform: uppercase;
+    color: black;
+    -moz-text-decoration-line: none;
+    
+
+}
+
+main{
+    background-color: white;
+    color: white;
+    
+}
+article{
+    margin: 2em;
+    text-align: center;
+
+}
+
+main{
+    margin: 0;
+    display: grid;
+    grid-template: 
+    "art1" 500px
+    "art2" 690px
+    "art3" 734px;
+}
+
+.art1{
+    background-color: #016241;
+    padding: 1em;
+    grid-area: art1;
+	height: 430px;
+}
+
+.art2, .art3{
+    background-color: #d40032;
+}
+
+
+.mas{
+	color: blue;
+	padding: 1.4em;
+	
+}
+
+.art2{
+    grid-area: art2;
+    display: grid;
+    grid-template: 
+    "alebrije-1 textoart2";   
+}
+
+#alebrije-1{
+    float: left;
+    margin: 0;
+    grid-area: alebrije-1;
+	width: 800px;
+	height: 626px;
+}
+
+.art1-h1{
+	padding: 0;
+	position: static;
+}
+.art2-detail{
+    grid-area: textoart2;
+    float: right;
+	position: static;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 5em;
+	padding-top: .5em;
+	position: static;
+
+}
+
+.art3{
+    grid-area: art3;
+    display: grid;
+    grid-template: 
+    "textoart-3 alebrije-2" 400px / 45% 45%
+		;   
+}
+
+.art3-detail{
+    grid-area: textoart-3;
+	
+}
+#alebrije-2{
+    margin: 0;
+    grid-area: alebrije-2;
+	width: 800px;
+	height: 670px;
+	padding-left: 1em;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+	padding-top: .5em;
+}
+
+a{
+    border: 2px solid;
+    border-radius: 25px;
+    padding: .5em;
+	text-decoration: none;
+}
+
+.mas2{
+	border: none;
+	color: white;
+}
+.mas2:hover{
+	color: blue;
+}
+
+.nav-buttons{
+    border: none;
+}
+.nav-buttons:hover{
+	text-decoration: underline;
+}
+
+
+.art2-h1{
+	padding-top: 1.4em;
+}
+
+.art3-h1{
+	padding: 1em .5em 0em 1em;
+}
+
+.boton-compra{
+	padding-top:3em; 
+}
+.boton-compra-dentro{
+	color: white;
+}
+
+.boton-compra-dentro:hover{
+	background-color:white;
+	color: #d40032;
+}
+
+.texto-art1{
+	margin: 5px 12px;
+}
+
+#registro{
+    background-color: blue;
+    color: white;
+}
+
+.pie{
+    color: black;
+	border-top: thin solid gray;
+	margin: 0em 2em;
+	padding-top: 2em;
+}
+
+.redes{
+	width: 38px;
+	height: 36px;
+}
+
+.derechos{
+    text-align: left;
+    font-size: 1em;
+}
